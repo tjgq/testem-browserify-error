@@ -1,0 +1,7 @@
+{
+  "framework": "mocha",
+  "serve_files": [ "browserified.js" ],
+  "src_files": [ "hello.js", "tests.js" ],
+  "before_tests": "browserify tests.js -o browserified.js",
+  "on_exit": "rm browserified.js"
+}

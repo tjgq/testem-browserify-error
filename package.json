@@ -1,0 +1,16 @@
+{
+  "name": "testem-browserify-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "browserify": "^14.5.0",
+    "testem": "^1.18.4"
+  }
+}
